@@ -1,0 +1,135 @@
+C:\Users\asim8>cd C:\Exit\MyPython\First projects
+
+C:\Exit\MyPython\First projects>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Exit\MyPython\First projects>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 46E9-4B08
+
+ Directory of C:\Exit\MyPython\First projects
+
+2021-08-28  12:37    <DIR>          .
+2021-08-28  16:11    <DIR>          ..
+2021-08-28  12:37               443 13 Create a character.py
+2021-08-28  12:37               160 15 Adding numbers and strings.py
+2021-08-28  12:37               157 17- 18 Do you like robots IF.py
+2021-08-28  12:37               249 18 end - Do you like robots ELSE.py
+2021-08-28  12:37               504 19 Do you like robots ELIF.py
+2021-08-28  12:37               823 21-22 Castle Dragonsnax up to step 9.py
+2021-08-28  12:37             1 918 22-26 Return to Castle Dragonsnax.py
+2021-08-28  12:37             2 097 27 Dragonsnax the loopy version.py
+2021-08-28  12:37             1 117 28-29 Global defence program.py
+2021-08-28  12:37               423 30-31 Guessing game.py
+2022-04-01  10:23               228 32 For loops.py
+2021-08-28  12:37               154 34 A times tables shortcut.py
+2021-08-28  12:51               203 35 Nested loops.py
+2021-08-28  12:37               145 36 Displaying items from a list.py
+2021-08-28  12:37               168 37 part 1 - Displaying the whole list.py
+2021-08-28  12:37               269 37 part 2 - Replacing an item in a list.py
+2021-08-28  12:37               243 37 part 3 - Deleting an item from a list.py
+2021-08-28  12:37               394 37 part 4 - Adding an item to the end of a list.py
+2021-08-28  12:37               194 37 part 5 - Adding lists together.py
+2021-08-28  12:37             1 190 38-39 A game of consequences.py
+2021-08-28  12:37                23 8 Hello world.py
+              21 File(s)         11 102 bytes
+               2 Dir(s)  47 932 862 464 bytes free
+
+C:\Exit\MyPython\First projects>git init
+Initialized empty Git repository in C:/Exit/MyPython/First projects/.git/
+
+C:\Exit\MyPython\First projects>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 46E9-4B08
+
+ Directory of C:\Exit\MyPython\First projects
+
+2022-04-01  10:51    <DIR>          .
+2021-08-28  16:11    <DIR>          ..
+2021-08-28  12:37               443 13 Create a character.py
+2021-08-28  12:37               160 15 Adding numbers and strings.py
+2021-08-28  12:37               157 17- 18 Do you like robots IF.py
+2021-08-28  12:37               249 18 end - Do you like robots ELSE.py
+2021-08-28  12:37               504 19 Do you like robots ELIF.py
+2021-08-28  12:37               823 21-22 Castle Dragonsnax up to step 9.py
+2021-08-28  12:37             1 918 22-26 Return to Castle Dragonsnax.py
+2021-08-28  12:37             2 097 27 Dragonsnax the loopy version.py
+2021-08-28  12:37             1 117 28-29 Global defence program.py
+2021-08-28  12:37               423 30-31 Guessing game.py
+2022-04-01  10:23               228 32 For loops.py
+2021-08-28  12:37               154 34 A times tables shortcut.py
+2021-08-28  12:51               203 35 Nested loops.py
+2021-08-28  12:37               145 36 Displaying items from a list.py
+2021-08-28  12:37               168 37 part 1 - Displaying the whole list.py
+2021-08-28  12:37               269 37 part 2 - Replacing an item in a list.py
+2021-08-28  12:37               243 37 part 3 - Deleting an item from a list.py
+2021-08-28  12:37               394 37 part 4 - Adding an item to the end of a list.py
+2021-08-28  12:37               194 37 part 5 - Adding lists together.py
+2021-08-28  12:37             1 190 38-39 A game of consequences.py
+2021-08-28  12:37                23 8 Hello world.py
+              21 File(s)         11 102 bytes
+               2 Dir(s)  47 935 594 496 bytes free
+
+C:\Exit\MyPython\First projects>git add --all
+
+C:\Exit\MyPython\First projects>git commit -m "first commit"
+[master (root-commit) db45f88] first commit
+ 21 files changed, 278 insertions(+)
+ create mode 100644 13 Create a character.py
+ create mode 100644 15 Adding numbers and strings.py
+ create mode 100644 17- 18 Do you like robots IF.py
+ create mode 100644 18 end - Do you like robots ELSE.py
+ create mode 100644 19 Do you like robots ELIF.py
+ create mode 100644 21-22 Castle Dragonsnax up to step 9.py
+ create mode 100644 22-26 Return to Castle Dragonsnax.py
+ create mode 100644 27 Dragonsnax the loopy version.py
+ create mode 100644 28-29 Global defence program.py
+ create mode 100644 30-31 Guessing game.py
+ create mode 100644 32 For loops.py
+ create mode 100644 34 A times tables shortcut.py
+ create mode 100644 35 Nested loops.py
+ create mode 100644 36 Displaying items from a list.py
+ create mode 100644 37 part 1 - Displaying the whole list.py
+ create mode 100644 37 part 2 - Replacing an item in a list.py
+ create mode 100644 37 part 3 - Deleting an item from a list.py
+ create mode 100644 37 part 4 - Adding an item to the end of a list.py
+ create mode 100644 37 part 5 - Adding lists together.py
+ create mode 100644 38-39 A game of consequences.py
+ create mode 100644 8 Hello world.py
+
+C:\Exit\MyPython\First projects>git remote add origin https://github.com/asja17/test.git
+
+C:\Exit\MyPython\First projects>git push origin master
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (23/23), 5.89 KiB | 1.96 MiB/s, done.
+Total 23 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/asja17/test.git
+ * [new branch]      master -> master
+
+C:\Exit\MyPython\First projects>git add --all
+
+C:\Exit\MyPython\First projects>git commit -m "changed"
+[master 1776129] changed
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Exit\MyPython\First projects>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 288 bytes | 288.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/asja17/test.git
+   db45f88..1776129  master -> master
+
+C:\Exit\MyPython\First projects>
+
+
+
+
